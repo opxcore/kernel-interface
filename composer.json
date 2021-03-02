@@ -1,0 +1,34 @@
+{
+  "name": "opxcore/kernel-interface",
+  "description": "The OpxCore kernel interface.",
+  "keywords": [
+    "opxcore",
+    "kernel",
+    "interface"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://opxcore.com",
+  "support": {
+    "issues": "https://github.com/opxcore/kernel-interface/issues",
+    "source": "https://github.com/opxcore/kernel-interface"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "opxcore/request-interface": "dev-master",
+    "opxcore/response-interface": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\Kernel\\Interfaces\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
